@@ -1,0 +1,20 @@
+int main()
+{
+    int arr[N];
+    int n;
+    cout << " ：";
+    cin >> n;
+    for(int i = 0;i < n; i++)
+    {
+        arr[i] = i;
+    }
+    int start;
+    while(1)
+    {
+        cout << " ";
+        cin >> start;
+        if(start >= 0 && start < n)
+        {
+            break;
+        }
+    }
