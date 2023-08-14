@@ -1,0 +1,6 @@
+
+ApplicationContext ctx = new ClassPathXmlApplicationContext("conf/appContext.xml");
+ApplicationContext ctx = new FileSystemXmlApplicationContext("conf/appContext.xml");
+ApplicationContext ctx = new FileSystemXmlApplicationContext("classpath:conf/appContext.xml");
+ApplicationContext ctx = new ClassPathXmlApplicationContext(new String[] {"services.xml", "daos.xml"}, MessengerService.class);
+
