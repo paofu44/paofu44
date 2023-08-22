@@ -1,0 +1,15 @@
+return [
+	{
+		label: 'MinoMino',
+		kind: CompletionItemKind.Text,
+		data: 3,
+		sortText: 'b',
+		filterText: 'hello'
+	},
+	{
+		label: 'MinoMin',
+		kind: CompletionItemKind.Text,
+		sortText: 'a',
+		filterText: 'hello'
+	}
+];
